@@ -16,5 +16,4 @@ generateButton.addEventListener("click", () => {
   const generatedColor = `#${generateHexColor()}`;
   currentColor.textContent = generatedColor;
   body.style.backgroundColor = generatedColor;
-  console.log(generatedColor);
 });
